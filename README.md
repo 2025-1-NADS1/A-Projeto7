@@ -10,10 +10,9 @@
 
 ## Force X
 
-## Integrantes: <a href="https://www.linkedin.com/in/enzo-ribeiro/">Enzo Ribeiro da Silva</a>, <a href="https://www.linkedin.com/in/victorbarq/">Rikelmy Anacleto</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yan Bessa</a>, <a href="https://www.linkedin.com/in/victorbarq/">Rafael Daniel</a>
+## Integrantes: <a href="https://www.linkedin.com/in/enzo-ribeiro/">Enzo Ribeiro da Silva</a>, <a href="https://www.linkedin.com/in/rikelmy-anacleto-07102006d18/">Rikelmy Anacleto</a>, <a href="https://www.linkedin.com/in/ian-lattarulo-l-aa01742a7">Ian Lattarulo</a>, <a href="https://www.linkedin.com/in/rafael-daniel-314407321/">Rafael Daniel</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
-
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>
 ## Descrição
 
 <p align="center">
