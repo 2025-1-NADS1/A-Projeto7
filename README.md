@@ -13,7 +13,6 @@
 ## Integrantes: <a href="https://www.linkedin.com/in/enzo-ribeiro/">Enzo Ribeiro da Silva</a>, <a href="https://www.linkedin.com/in/rikelmy-anacleto-07102006d18/">Rikelmy Anacleto</a>, <a href="https://www.linkedin.com/in/ian-lattarulo-l-aa01742a7">Ian Lattarulo</a>, <a href="https://www.linkedin.com/in/rafael-daniel-314407321/">Rafael Daniel</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno</a>
-## 🎓 Referências
 
 ## Descrição
 
@@ -25,7 +24,6 @@
 
 O objetivo do desafio é gerar um dashboard de uma cidade/casa inteligente que permita o controle de sensores e atuadores. 
 
-<br><br>
 May the force be with you!
 <br><br>
 
@@ -51,8 +49,6 @@ May the force be with you!
 Há também 4 pastas que seguem da seguinte forma:
 
 <b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
 
 <b>imagens</b>: Imagens do sistema
 
