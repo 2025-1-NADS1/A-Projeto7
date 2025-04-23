@@ -39,12 +39,12 @@ May the force be with you!
   &emsp;|-->Entrega 2<br>
   &emsp;|-->Entrega 3<br>
   &emsp;|-->Entrega 4<br>
-  &emsp;|README<br>
+  &emsp;|-->README.md<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
   &emsp;|-->Frontend<br>
-|readme.md<br>
+|README.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:
 
