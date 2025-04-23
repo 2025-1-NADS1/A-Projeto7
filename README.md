@@ -39,11 +39,7 @@ May the force be with you!
   &emsp;|-->Entrega 2<br>
   &emsp;|-->Entrega 3<br>
   &emsp;|-->Entrega 4<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
+  &emsp;|README<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
