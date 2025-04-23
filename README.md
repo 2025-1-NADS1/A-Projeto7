@@ -22,7 +22,7 @@
 </p>
 
 
-O objetivo do desafio é gerar um dashboard de uma cidade/casa inteligente que permita o controle de sensores e atuadores. 
+O objetivo do desafio é gerar um dashboard de uma casa inteligente que permita o controle de sensores e atuadores. 
 
 May the force be with you!
 <br><br>
@@ -46,7 +46,7 @@ May the force be with you!
 
 <b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
 
-Há também 4 pastas que seguem da seguinte forma:
+Há também 3 pastas que seguem da seguinte forma:
 
 <b>documentos</b>: Toda a documentação estará nesta pasta.
 
