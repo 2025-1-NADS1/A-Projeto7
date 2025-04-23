@@ -24,7 +24,6 @@
 
 O objetivo do desafio é gerar um dashboard de uma casa inteligente que permita o controle de sensores e atuadores. 
 
-May the force be with you!
 <br><br>
 
 ## 🛠 Estrutura de pastas
