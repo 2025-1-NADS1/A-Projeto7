@@ -23,9 +23,8 @@
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+O objetivo do desafio é gerar um dashboard de uma cidade/casa inteligente que permita o controle de sensores e atuadores. 
+
 <br><br>
 May the force be with you!
 <br><br>
@@ -46,7 +45,6 @@ May the force be with you!
   &emsp;|-->Frontend<br>
 |README.md<br>
 
-A pasta raiz contem dois arquivos que devem ser alterados:
 
 <b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
 
