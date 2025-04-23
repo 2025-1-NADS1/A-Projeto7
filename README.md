@@ -17,7 +17,7 @@
 ## Descrição
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fenciser.com%2Fwhat-is-a-smart-home-know-its-advantages-and-disadvantages%2F&psig=AOvVaw3O9KlVhzlKgCpZKFlhfgWO&ust=1745453373426000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCICaufvu7IwDFQAAAAAdAAAAABAE" alt="CASA INTELIGENTE" border="0">
   Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
