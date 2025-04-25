@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 class Program
 {
@@ -20,16 +16,43 @@ class Program
         Console.WriteLine("5 - Piscina");
 
         string escolha = Console.ReadLine();
+        Console.WriteLine();
 
-        if (escolha == "5")
+        switch (escolha)
         {
-            Console.WriteLine("\nResposta recebida: Sensores no ambiente 'PISCINA':");
-            Console.WriteLine("- Sensor: BOMBA, Status: Ativo");
-            Console.WriteLine("- Sensor: AQUECEDOR, Status: Inativo");
-        }
-        else
-        {
-            Console.WriteLine("Ambiente não implementado.");
+            case "1":
+                Console.WriteLine("Resposta recebida: Sensores no ambiente 'QUARTO 1':");
+                Console.WriteLine("- Sensor: TEMPERATURA, Status: 22°C");
+                Console.WriteLine("- Sensor: PRESENÇA, Status: Inativo");
+                break;
+
+            case "2":
+                Console.WriteLine("Resposta recebida: Sensores no ambiente 'QUARTO 2':");
+                Console.WriteLine("- Sensor: TEMPERATURA, Status: 24°C");
+                Console.WriteLine("- Sensor: JANELA, Status: Fechada");
+                break;
+
+            case "3":
+                Console.WriteLine("Resposta recebida: Sensores no ambiente 'SALA':");
+                Console.WriteLine("- Sensor: MOVIMENTO, Status: Ativo");
+                Console.WriteLine("- Sensor: TV, Status: Ligada");
+                break;
+
+            case "4":
+                Console.WriteLine("Resposta recebida: Sensores no ambiente 'COZINHA':");
+                Console.WriteLine("- Sensor: FUMAÇA, Status: Inativo");
+                Console.WriteLine("- Sensor: GELADEIRA, Status: Ligada");
+                break;
+
+            case "5":
+                Console.WriteLine("Resposta recebida: Sensores no ambiente 'PISCINA':");
+                Console.WriteLine("- Sensor: BOMBA, Status: Ativo");
+                Console.WriteLine("- Sensor: AQUECEDOR, Status: Inativo");
+                break;
+
+            default:
+                Console.WriteLine("Ambiente não reconhecido.");
+                break;
         }
     }
 }
