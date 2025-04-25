@@ -23,6 +23,7 @@
 
 
 O objetivo do desafio é gerar um dashboard de uma casa inteligente que permita o controle de sensores e atuadores. 
+## 🛠 Links de Entregas
 
 ## 🛠 Estrutura de pastas
 
