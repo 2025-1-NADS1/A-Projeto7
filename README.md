@@ -24,6 +24,7 @@
 
 O objetivo do desafio é gerar um dashboard de uma casa inteligente que permita o controle de sensores e atuadores. 
 ## 🛠 Links de Entregas
+Banco de Dados: <https://github.com/iuricode/readme-template>
 
 ## 🛠 Estrutura de pastas
 
