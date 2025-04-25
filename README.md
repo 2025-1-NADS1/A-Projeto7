@@ -24,7 +24,7 @@
 
 O objetivo do desafio é gerar um dashboard de uma casa inteligente que permita o controle de sensores e atuadores. 
 ## 🛠 Links de Entregas
-Banco de Dados: <https://edufecap-my.sharepoint.com/:f:/g/personal/enzo_ribeiro_edu_fecap_br/EgLQrilME-ZJqXgobFSjjZkBx8OiPLGniOJRy1DwkNPffw?e=xQllDR>
+<b>Link Entrega - [OneDrive](https://github.com/2025-1-NADS1/A-Projeto7/tree/main/documentos/Entrega%201/Banco%20de%20Dados/README)</b></b>
 
 ## 🛠 Estrutura de pastas
 
