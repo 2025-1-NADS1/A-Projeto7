@@ -24,7 +24,7 @@
 
 O objetivo do desafio é gerar um dashboard de uma casa inteligente que permita o controle de sensores e atuadores. 
 ## 🛠 Links de Entregas
-<b>Link Entrega - [OneDrive](https://github.com/2025-1-NADS1/A-Projeto7/tree/main/documentos/Entrega%201/Banco%20de%20Dados/README)</b></b>)</b></b>
+<b>Link Entrega - [OneDrive](https://github.com/2025-1-NADS1/A-Projeto7/tree/main/documentos/Entrega%201/Banco%20de%20Dados/README)</b></b></b></b>
 
 ## 🛠 Estrutura de pastas
 
