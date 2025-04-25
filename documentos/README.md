@@ -16,7 +16,7 @@
 ### Banco de Dados
 
 <b>Diagrama Entidade-relacionamento - [Projeto/Documento](https://github.com/2025-1-NADS1/A-Projeto7/tree/main/documentos/Entrega%201/Banco%20de%20Dados/README)</b><br>
-<b>Link Entrega - [OneDrive](<b>Link Entrega - [OneDrive](https://github.com/2025-1-NADS1/A-Projeto7/tree/main/documentos/Entrega%201/Banco%20de%20Dados/README)</b></b>)</b></b>
+<b>Link Entrega - [OneDrive](https://github.com/2025-1-NADS1/A-Projeto7/tree/main/documentos/Entrega%201/Banco%20de%20Dados/README)</b></b>)</b></b>
 <br><br>
 
 ### Modelagem de Software
