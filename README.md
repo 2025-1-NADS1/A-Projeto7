@@ -12,7 +12,7 @@
 
 ## Integrantes: <a href="https://www.linkedin.com/in/enzo-ribeiro/">Enzo Ribeiro da Silva</a>, <a href="https://www.linkedin.com/in/rikelmy-anacleto-07102006d18/">Rikelmy Anacleto</a>, <a href="https://www.linkedin.com/in/ian-lattarulo-l-aa01742a7">Ian Lattarulo</a>, <a href="https://www.linkedin.com/in/rafael-daniel-314407321/">Rafael Daniel</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno</a>, <a href="https://www.linkedin.com/in/aimarlopes/">Aimar Martins</a>, <a href="https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/">Eduardo Savino</a>, <a href="https://www.linkedin.com/in/lucymari/">Lucy Mari Tabuti</a>, <a href="https://www.linkedin.com/in/remuniz/">Renata Muniz</a>, <a href="https://www.linkedin.com/in/ronaldo-araujo-pinto-3542811a/">Ronaldo Araujo</a>
 
 ## Descrição
 
