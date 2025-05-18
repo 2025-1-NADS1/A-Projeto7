@@ -1,0 +1,137 @@
+CREATE TABLE CASA (
+  ID_Casa INT PRIMARY KEY,
+  Endereco VARCHAR(255) NOT NULL,
+  Quantidade_Comodos INT
+);
+
+CREATE TABLE AMBIENTE (
+  ID_Ambiente INT PRIMARY KEY,
+  Nome VARCHAR(100) NOT NULL,
+  Consumo_Medio_KWh DECIMAL(10, 2),
+  ID_Casa INT NOT NULL,
+  FOREIGN KEY (ID_Casa) REFERENCES CASA(ID_Casa)
+);
+
+CREATE TABLE MORADORES (
+  ID_Morador INT PRIMARY KEY,
+  Nome VARCHAR(100) NOT NULL,
+  ID_Casa INT NOT NULL,
+  FOREIGN KEY (ID_Casa) REFERENCES CASA(ID_Casa)
+);
+
+CREATE TABLE TIPO_SENSOR (
+  ID_Tipo_Sensor INT PRIMARY KEY,
+  Nome_Tipo VARCHAR(50) NOT NULL,
+  Unidade_Medida VARCHAR(20)
+);
+
+CREATE TABLE SENSOR (
+  ID_Sensor INT PRIMARY KEY,
+  ID_Tipo_Sensor INT NOT NULL,
+  ID_Ambiente INT NOT NULL,
+  FOREIGN KEY (ID_Ambiente) REFERENCES AMBIENTE(ID_Ambiente),
+  FOREIGN KEY (ID_Tipo_Sensor) REFERENCES TIPO_SENSOR(ID_Tipo_Sensor)
+);
+
+CREATE TABLE REGISTRO_EVENTO (
+  ID_Registro_Evento INT PRIMARY KEY,
+  Origem_Acao VARCHAR(100),
+  Data_Hora_Acao DATETIME NOT NULL,
+  Tipo_Acao VARCHAR(50)
+);
+
+CREATE TABLE SENSOR_EVENTO (
+  ID_Evento INT PRIMARY KEY,
+  TimeStamp DATETIME NOT NULL,
+  Valor_Temperatura DECIMAL(5,2),
+  Valor_Umidade DECIMAL(5,2),
+  Movimento BOOLEAN,
+  ID_Sensor INT NOT NULL,
+  FOREIGN KEY (ID_Sensor) REFERENCES SENSOR(ID_Sensor),
+  FOREIGN KEY (ID_Evento) REFERENCES REGISTRO_EVENTO(ID_Registro_Evento)
+);
+
+CREATE TABLE TIPO_DISPOSITIVO (
+  ID_Tipo_Dispositivo INT PRIMARY KEY,
+  Nome_Tipo VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE DISPOSITIVO (
+  ID_Dispositivo INT PRIMARY KEY,
+  Nome VARCHAR(100),
+  Estado VARCHAR(20),
+  ID_Tipo_Dispositivo INT NOT NULL,
+  ID_Ambiente INT NOT NULL,
+  FOREIGN KEY (ID_Tipo_Dispositivo) REFERENCES TIPO_DISPOSITIVO(ID_Tipo_Dispositivo),
+  FOREIGN KEY (ID_Ambiente) REFERENCES AMBIENTE(ID_Ambiente)
+);
+
+CREATE TABLE ACAO_PROGRAMADA (
+  ID_Acao INT PRIMARY KEY,
+  Tipo_Acao VARCHAR(50),
+  Condicao VARCHAR(100),
+  Horario_Agendado TIME,
+  ID_Dispositivo INT NOT NULL,
+  FOREIGN KEY (ID_Dispositivo) REFERENCES DISPOSITIVO(ID_Dispositivo)
+);
+
+CREATE TABLE NOTIFICACAO (
+  ID_Notificacao INT PRIMARY KEY,
+  Mensagem TEXT NOT NULL,
+  Data_Hora DATETIME NOT NULL,
+  Nivel VARCHAR(20),
+  ID_Morador INT NOT NULL,
+  FOREIGN KEY (ID_Morador) REFERENCES MORADORES(ID_Morador)
+);
+
+-- Inserção de dados
+
+INSERT INTO CASA (ID_Casa, Endereco, Quantidade_Comodos)
+VALUES (1, 'Rua Exemplo, 123 - São Paulo', 5);
+
+INSERT INTO AMBIENTE (ID_Ambiente, Nome, Consumo_Medio_KWh, ID_Casa)
+VALUES
+  (1, 'Quarto1', 1.5, 1),
+  (2, 'Quarto2', 1.5, 1),
+  (3, 'Sala', 0.05, 1),
+  (4, 'Cozinha', 3.0, 1),
+  (5, 'Piscina', 7.0, 1);
+
+INSERT INTO MORADORES (ID_Morador, Nome, ID_Casa)
+VALUES
+  (1, 'MORADOR1', 1),
+  (2, 'MORADOR2', 1);
+
+INSERT INTO TIPO_SENSOR (ID_Tipo_Sensor, Nome_Tipo, Unidade_Medida)
+VALUES
+  (1, 'Temperatura', '°C'),
+  (2, 'Umidade', '%'),
+  (3, 'Movimento', 'Booleano');
+
+INSERT INTO SENSOR (ID_Sensor, ID_Tipo_Sensor, ID_Ambiente)
+VALUES
+  (1, 1, 1),
+  (2, 2, 1),
+  (3, 3, 3);
+
+INSERT INTO TIPO_DISPOSITIVO (ID_Tipo_Dispositivo, Nome_Tipo)
+VALUES
+  (1, 'Lâmpada'),
+  (2, 'Ar-Condicionado'),
+  (3, 'Tranca');
+
+INSERT INTO DISPOSITIVO (ID_Dispositivo, Nome, Estado, ID_Tipo_Dispositivo, ID_Ambiente)
+VALUES
+  (1, 'Lâmpada do Quarto1', 'Desligada', 1, 1),
+  (2, 'Ar-Condicionado do Quarto2', 'Ligado', 2, 2),
+  (3, 'Tranca da Porta', 'Fechada', 3, 3);
+
+INSERT INTO ACAO_PROGRAMADA (ID_Acao, Tipo_Acao, Condicao, Horario_Agendado, ID_Dispositivo)
+VALUES
+  (1, 'Ligar', 'Temperatura > 28', NULL, 2),
+  (2, 'Desligar', NULL, '23:00:00', 1);
+
+INSERT INTO NOTIFICACAO (ID_Notificacao, Mensagem, Data_Hora, Nivel, ID_Morador)
+VALUES
+  (1, 'Temperatura alta no Quarto2', '2025-05-16 14:00:00', 'Alerta', 2),
+  (2, 'Luz do Quarto1 desligada automaticamente', '2025-05-16 23:01:00', 'Informação', 1);
