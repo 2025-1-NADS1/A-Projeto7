@@ -15,7 +15,8 @@
 
 ### Banco de Dados
 
-<b>Diagrama Entidade-relacionamento- [Projeto/Documento](https://github.com/2025-1-NADS1/A-Projeto7/tree/main/documentos/Entrega%201/Banco%20de%20Dados/README)</b>
+<b>Diagrama Entidade-relacionamento - [Projeto/Documento](https://github.com/2025-1-NADS1/A-Projeto7/tree/main/documentos/Entrega%201/Banco%20de%20Dados/README)</b><br>
+<b>Link Entrega - [OneDrive](https://edufecap-my.sharepoint.com/:f:/g/personal/enzo_ribeiro_edu_fecap_br/EgLQrilME-ZJqXgobFSjjZkBx8OiPLGniOJRy1DwkNPffw?e=eCQGF0)</b></b></b></b>
 <br><br>
 
 ### Modelagem de Software
