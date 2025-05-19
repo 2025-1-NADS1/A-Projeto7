@@ -29,5 +29,30 @@
 <b>Algoritmo - [Projeto/Documento](https://github.com/2025-1-NADS1/A-Projeto7/tree/main/documentos/Entrega%201/Algoritmo%20e%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o)</b>
 <br><br>
 
+## Entrega 2
+<br><br>
+
+### Matemática Discreta
+
+<b></b>
+<br><br>
+
+### Redes de Computadores
+
+<b></b>
+<br><br>
+
+### Banco de Dados
+
+<b>Banco de Dados(https://github.com/2025-1-NADS1/A-Projeto7/tree/main/documentos/Entrega%202/Banco%20de%20Dados)</b><br>
+
+### Modelagem de Software
+
+<br><br>
+
+### Algoritmo e Lógica de Programação 
+
+<br><br>
+
 
 
