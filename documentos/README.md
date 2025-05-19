@@ -45,6 +45,7 @@
 ### Banco de Dados
 
 <b>Banco de Dados - [Projeto/Documento](https://github.com/2025-1-NADS1/A-Projeto7/tree/main/documentos/Entrega%202/Banco%20de%20Dados)</b><br>
+<br>
 
 ### Modelagem de Software
 
