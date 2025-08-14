@@ -1,0 +1,16 @@
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\obj\Release\ResolveAssemblyReference.cache
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\obj\Release\RedeTCPChat.frmChat.resources
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\obj\Release\RedeTCPChat.Properties.Resources.resources
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\obj\Release\RedeTCPChat.csproj.GenerateResource.Cache
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\bin\Release\RedeTCPChat.exe
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\bin\Release\RedeTCPChat.pdb
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\obj\Release\RedeTCPChat.exe
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\obj\Release\RedeTCPChat.pdb
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\obj\Debug\ResolveAssemblyReference.cache
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\obj\Debug\RedeTCPChat.frmChat.resources
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\obj\Debug\RedeTCPChat.Properties.Resources.resources
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\obj\Debug\RedeTCPChat.csproj.GenerateResource.Cache
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\bin\Debug\RedeTCPChat.exe
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\bin\Debug\RedeTCPChat.pdb
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\obj\Debug\RedeTCPChat.exe
+C:\PUC\LPG4\2010\AULA6\RedeTCPChat\RedeTCPChat\obj\Debug\RedeTCPChat.pdb
